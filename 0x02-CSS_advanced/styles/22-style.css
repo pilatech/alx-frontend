@@ -96,14 +96,14 @@ h6 {
     color: var(--color-primary);
 }
 
+.section {
+    padding: var(--section-padding);
+}
+
 [data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background: var(--color-black);
-}
-
-.section {
-    padding: var(--section-padding);
 }
 
 .section-header {
