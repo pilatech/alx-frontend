@@ -205,7 +205,7 @@ ul.row {
 }
 
 [data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background: var(--color-black);
+    --text-color: var(--color-white) !important;
+    --section-title-color: var(--color-white) !important;
+    background: var(--color-black) !important;
 }
