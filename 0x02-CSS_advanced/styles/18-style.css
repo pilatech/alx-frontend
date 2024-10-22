@@ -18,7 +18,7 @@ html {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --color-text: var(--color-black);
+    --text-color: var(--color-black);
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -51,7 +51,7 @@ html {
 }
 
 body {
-    color: var(--color-text);
+    color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
@@ -59,7 +59,7 @@ body {
 }
 
 a:link {
-    color: var(--color-text);
+    color: var(--text-color);
     text-decoration: none;
 }
 
