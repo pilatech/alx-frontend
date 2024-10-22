@@ -87,6 +87,13 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
+[data-section-theme=“dark”] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
+    --button-color: var(--color-white);
+}
+
 .button {
     display: var(--button-display);
     padding: var(--button-padding);
@@ -118,13 +125,6 @@ h6 {
 
 .card-category {
     color: var(--color-primary);
-}
-
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background: var(--color-black);
-    --button-color: var(--color-white) !important;
 }
 
 .section {
